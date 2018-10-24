@@ -2796,7 +2796,7 @@
 					font-size: 1.25em;
 				}
 
-				@media screen and (max-width: 980px) {
+				@media screen and (max-width: 1250px) {
 
 					#header a.navPanelToggle {
 						display: inline-block;
