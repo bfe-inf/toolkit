@@ -2623,12 +2623,12 @@
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 2em;
 			width: 100%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 80%;
 			}
 
 		.image.main {
