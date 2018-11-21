@@ -2585,7 +2585,7 @@
 		}
 
 		.image.flush {
-			margin: 2rem !important;
+			margin: 0 !important;
 		}
 
 		.image.left, .image.right {
