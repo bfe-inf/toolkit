@@ -2581,7 +2581,7 @@
 		.image.fit {
 			display: block;
 			margin: 2rem;
-			width: 80%;
+			width: 100%;
 		}
 
 		.image.flush {
@@ -2629,6 +2629,7 @@
 
 			.image.fit img {
 				width: 80%;
+				margin: 2em;
 			}
 
 		.image.main {
