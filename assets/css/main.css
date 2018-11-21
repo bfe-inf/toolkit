@@ -2580,12 +2580,12 @@
 
 		.image.fit {
 			display: block;
-			margin: 2em;
+			margin: 0;
 			width: 100%;
 		}
 			.image.fit img {
 				width: 100%;
-				margin: 2em;
+				margin: 0;
 			}
 
 		.image.flush {
