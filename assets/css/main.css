@@ -2580,12 +2580,12 @@
 
 		.image.fit {
 			display: block;
-			margin: 2rem 2rem 2rem 2rem;
-			width: 100%;
+			margin: 2rem;
+			width: 80%;
 		}
 
 		.image.flush {
-			margin: 0 !important;
+			margin: 2rem !important;
 		}
 
 		.image.left, .image.right {
