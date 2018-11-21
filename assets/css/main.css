@@ -2584,14 +2584,12 @@
 			width: 100%;
 		}
 			.image.fit img {
-				width: 80%;
+				width: 100%;
 				margin: 2em;
 			}
 
 		.image.flush {
 			margin: 0 !important;
-			object-fit: contain;
-			object-position: 50% 50%;
 		}
 
 		.image.left, .image.right {
