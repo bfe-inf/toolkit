@@ -2580,7 +2580,7 @@
 
 		.image.fit {
 			display: block;
-			margin: 6rem;
+			margin: 0;
 			width: 100%;
 		}
 
@@ -2624,11 +2624,11 @@
 		.image.fit {
 			display: block;
 			margin: 2em;
-			width: 80%;
+			width: 100%;
 		}
 
 			.image.fit img {
-				width: 80%;
+				width: 100%;
 				margin: 2em;
 			}
 
