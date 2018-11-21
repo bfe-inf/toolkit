@@ -2586,12 +2586,12 @@
 			.image.fit img {
 				width: 80%;
 				margin: 2em;
-				object-fit: contain;
-				object-position: 50% 50%;
 			}
 
 		.image.flush {
 			margin: 0 !important;
+			object-fit: contain;
+			object-position: 50% 50%;
 		}
 
 		.image.left, .image.right {
