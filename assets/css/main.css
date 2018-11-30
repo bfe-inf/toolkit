@@ -2957,7 +2957,7 @@
 			border-top: 2px solid rgba(255, 255, 255, 0.2);
 			position: relative;
 			z-index: 10005;
-			padding-top: 8em;
+			padding-top: 4em;
 		}
 
 		#banner h1 {
@@ -3046,7 +3046,7 @@
 			}
 
 				#banner .inner {
-					padding-top: 6em;
+					padding-top: 4em;
 				}
 
 				#banner h1 {
