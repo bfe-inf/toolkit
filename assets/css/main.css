@@ -2931,7 +2931,7 @@
 				color: #0c5567;
 			}
 
-/* Banner */
+/* Banner - Index */
 	
 	#banner {
 		padding: 6.5em 0 2em 0;
@@ -3131,6 +3131,611 @@
 			}
 
 		}
+
+/* Banner - DDOMP */
+	
+	#banner2 {
+		padding: 6.5em 0 2em 0;
+		background-image: url(../../images/paul-gilmore-146128-unsplash.jpg);
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+	}
+
+		#banner2:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		#banner2 .inner {
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 4em;
+		}
+
+		#banner2 h1 {
+			font-size: 3.5em;
+			font-weight: 700;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+		
+		#banner2 h2 {
+			font-size: 1.85em;
+			font-weight: 300;
+			color: #fff;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+			
+		#banner2 h3 {
+			font-weight: 400;
+			color: #fff;
+			margin: 0;
+			font-size: 1.5em;
+		}
+
+		#banner2 .icon {
+			color: #6cc091;
+			font-size: 2em;
+		}
+
+		#banner2 p {
+			font-size: 1em;
+			color: white;
+			margin-bottom: 1.75em;
+		}
+
+		#banner2 .flex {
+			-ms-flex-pack: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto 4em auto;
+		}
+
+			#banner2 .flex div {
+				border-right: 2px solid rgba(255, 255, 255, 0.2);
+				padding: 0 8em;
+			}
+
+				#banner2 .flex div:last-child {
+					border: none;
+					padding-right: 0;
+				}
+
+				#banner2 .flex div:first-child {
+					padding-left: 0;
+				}
+
+				#banner2 .flex div p {
+					margin: 0; 
+				}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+			#banner2 {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			#banner2 .flex div {
+				padding: 0 6em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner2 {
+				padding: 7em 0 6em 0;
+			}
+
+				#banner2 .inner {
+					padding-top: 4em;
+				}
+
+				#banner2 h1 {
+					font-size: 3em;
+				}
+
+				#banner2 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner2 .flex div {
+					padding: 0 3em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner2 {
+				background-attachment: scroll;
+				padding: 4em 0 1em 0;
+			}
+
+				#banner2 .inner {
+					padding-top: 4em;
+				}
+
+				#banner2 h1 {
+					font-size: 2.5em;
+				}
+
+				#banner2 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner2 .flex div {
+					font-size: .85em;
+					padding: 0 1.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner2 {
+				padding: 4em 0 1em 0;
+			}
+
+				#banner2 .inner {
+					padding-top: 3em;
+				}
+
+				#banner2 h1 {
+					font-size: 2em;
+				}
+
+				#banner2 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner2 .flex {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					margin: 0 auto 2em auto;
+				}
+
+					#banner2 .flex div {
+						font-size: .85em;
+						padding: 0;
+						border: none;
+						margin-bottom: 1em;
+					}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner2 h1 {
+				font-size: 1.5em;
+			}
+
+		}
+
+/* Banner - DMT */
+	
+	#banner3 {
+		padding: 6.5em 0 2em 0;
+		background-image: url(../../images/paul-gilmore-146128-unsplash.jpg);
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+	}
+
+		#banner3:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		#banner3 .inner {
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 4em;
+		}
+
+		#banner3 h1 {
+			font-size: 3.5em;
+			font-weight: 700;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+		
+		#banner3 h2 {
+			font-size: 1.85em;
+			font-weight: 300;
+			color: #fff;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+			
+		#banner3 h3 {
+			font-weight: 400;
+			color: #fff;
+			margin: 0;
+			font-size: 1.5em;
+		}
+
+		#banner3 .icon {
+			color: #6cc091;
+			font-size: 2em;
+		}
+
+		#banner3 p {
+			font-size: 1em;
+			color: white;
+			margin-bottom: 1.75em;
+		}
+
+		#banner3 .flex {
+			-ms-flex-pack: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto 4em auto;
+		}
+
+			#banner3 .flex div {
+				border-right: 2px solid rgba(255, 255, 255, 0.2);
+				padding: 0 8em;
+			}
+
+				#banner3 .flex div:last-child {
+					border: none;
+					padding-right: 0;
+				}
+
+				#banner3 .flex div:first-child {
+					padding-left: 0;
+				}
+
+				#banner3 .flex div p {
+					margin: 0; 
+				}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+			#banner3 {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			#banner3 .flex div {
+				padding: 0 6em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner3 {
+				padding: 7em 0 6em 0;
+			}
+
+				#banner3 .inner {
+					padding-top: 4em;
+				}
+
+				#banner3 h1 {
+					font-size: 3em;
+				}
+
+				#banner3 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner3 .flex div {
+					padding: 0 3em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner3 {
+				background-attachment: scroll;
+				padding: 4em 0 1em 0;
+			}
+
+				#banner3 .inner {
+					padding-top: 4em;
+				}
+
+				#banner3 h1 {
+					font-size: 2.5em;
+				}
+
+				#banner3 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner3 .flex div {
+					font-size: .85em;
+					padding: 0 1.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner3 {
+				padding: 4em 0 1em 0;
+			}
+
+				#banner3 .inner {
+					padding-top: 3em;
+				}
+
+				#banner3 h1 {
+					font-size: 2em;
+				}
+
+				#banner3 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner3 .flex {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					margin: 0 auto 2em auto;
+				}
+
+					#banner3 .flex div {
+						font-size: .85em;
+						padding: 0;
+						border: none;
+						margin-bottom: 1em;
+					}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner3 h1 {
+				font-size: 1.5em;
+			}
+
+		}
+
+/* Banner - BP & S */
+	
+	#banner4 {
+		padding: 6.5em 0 2em 0;
+		background-image: url(../../images/paul-gilmore-146128-unsplash.jpg);
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+	}
+
+		#banner4:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		#banner4 .inner {
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 4em;
+		}
+
+		#banner4 h1 {
+			font-size: 3.5em;
+			font-weight: 700;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+		
+		#banner4 h2 {
+			font-size: 1.85em;
+			font-weight: 300;
+			color: #fff;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+			
+		#banner4 h3 {
+			font-weight: 400;
+			color: #fff;
+			margin: 0;
+			font-size: 1.5em;
+		}
+
+		#banner4 .icon {
+			color: #6cc091;
+			font-size: 2em;
+		}
+
+		#banner4 p {
+			font-size: 1em;
+			color: white;
+			margin-bottom: 1.75em;
+		}
+
+		#banner4 .flex {
+			-ms-flex-pack: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto 4em auto;
+		}
+
+			#banner4 .flex div {
+				border-right: 2px solid rgba(255, 255, 255, 0.2);
+				padding: 0 8em;
+			}
+
+				#banner4 .flex div:last-child {
+					border: none;
+					padding-right: 0;
+				}
+
+				#banner4 .flex div:first-child {
+					padding-left: 0;
+				}
+
+				#banner4 .flex div p {
+					margin: 0; 
+				}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+			#banner4 {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			#banner4 .flex div {
+				padding: 0 6em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner4 {
+				padding: 7em 0 6em 0;
+			}
+
+				#banner4 .inner {
+					padding-top: 4em;
+				}
+
+				#banner4 h1 {
+					font-size: 3em;
+				}
+
+				#banner4 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner4 .flex div {
+					padding: 0 3em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner4 {
+				background-attachment: scroll;
+				padding: 4em 0 1em 0;
+			}
+
+				#banner4 .inner {
+					padding-top: 4em;
+				}
+
+				#banner4 h1 {
+					font-size: 2.5em;
+				}
+
+				#banner4 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner4 .flex div {
+					font-size: .85em;
+					padding: 0 1.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner4 {
+				padding: 4em 0 1em 0;
+			}
+
+				#banner4 .inner {
+					padding-top: 3em;
+				}
+
+				#banner4 h1 {
+					font-size: 2em;
+				}
+
+				#banner4 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner4 .flex {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					margin: 0 auto 2em auto;
+				}
+
+					#banner4 .flex div {
+						font-size: .85em;
+						padding: 0;
+						border: none;
+						margin-bottom: 1em;
+					}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner4 h1 {
+				font-size: 1.5em;
+			}
+
+		}
+
+
 
 /* Footer */
 
