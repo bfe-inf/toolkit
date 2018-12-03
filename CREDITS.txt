@@ -1,9 +1,11 @@
 # Image Credits
 
-Images courtesy of Unsplash (https://unsplash.com) and ______________.
+Images courtesy of Unsplash (https://unsplash.com) and Stock Photography (Pixabay, Stockvault, PxHere, and rawpixel):
 
-- Redd Angelo (https://unsplash.com/photos/h34WJ4T9uhw)
-- Nirzar Pangarkar (https://unsplash.com/photos/EKjJSbVI7rk)
-- Maxim Polishtchouk (https://unsplash.com/photos/N6q6wtJ_mkA)
+- Paul Gilmore (https://unsplash.com/photos/qKIaA41lMjM)
+- ArtisticOperations (https://pixabay.com/no/skyskraper-arkitektur-h%C3%B8yeste-3306092/)
+- Stockvault (https://www.stockvault.net/data/2016/03/21/189035/thumb16.jpg)
+- rawpixel: 1062967; 701117; 718365; 740331 (https://www.rawpixel.com/)
+- PxHere (https://pxhere.com/en/photo/54646)
 
 Design initially adapted from Projection by Templated (https://templated.co/projection).
