@@ -2959,6 +2959,9 @@
 			z-index: 10005;
 			padding-top: 4em;
 		}
+		#banner a {
+			text-decoration: none !important;
+		}
 
 		#banner h1 {
 			font-size: 3.5em;
