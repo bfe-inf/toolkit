@@ -9,3 +9,5 @@ Images courtesy of Unsplash (https://unsplash.com) and Stock Photography (Pixaba
 - PxHere (https://pxhere.com/en/photo/54646)
 
 Design initially adapted from Projection by Templated (https://templated.co/projection).
+
+Main website development by Dr. Hannah C. Gunderman (https://hannahcgunderman.github.io/personal-site/) and Dr. Wade Bishop (https://www.sis.utk.edu/users/bradley-wade-bishop).
