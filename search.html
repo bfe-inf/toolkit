@@ -21,6 +21,21 @@ exclude_from_search: true
 		{% endif %}
 	</head>
 	<body>
+	<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>Belmont Forum</strong> BFE-INF</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="ddomp.html">DDOMP Guide</a>
+						<a href="dmt-root.html">Data Management Training</a>
+						<a href="bp&s-root.html">Best Practices & Standards</a>
+						<a href="https://github.com/bfe-inf/toolkit" target="_blank">GitHub</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			 </header>
+	<!--Search -->
 		<form action="{{ page.url | relative_url }}">
   		<div class="tipue_search_left"><img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon"></div>
   		<div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
