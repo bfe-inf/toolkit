@@ -11,6 +11,14 @@ exclude_from_search: true
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" type ="image/png" href = "images/Favicon/favicon-16x16.png"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
+		{% if page.tipue_search_active or layout.tipue_search_active %}
+		<link rel="stylesheet" href="{{ "/assets/tipuesearch/css/normalize.css" | relative_url }}">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
+		<link rel="stylesheet" href="{{ "/assets/tipuesearch/css/tipuesearch.css" | relative_url }}">
+		<script src="{{ "/assets/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
+		<script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
+		{% endif %}
 	</head>
 	<body>
 		<form action="{{ page.url | relative_url }}">
