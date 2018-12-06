@@ -1,1 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+	Projection by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 
+<html>
+	<head>
+		<title>Search | BFE-INF Toolkit</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type ="image/png" href = "images/Favicon/favicon-16x16.png"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <script src="tipuesearch/tipuesearch_content.js"></script>
+    <link rel="stylesheet" href="tipuesearch/css/tipuesearch.css">
+    <script src="tipuesearch/tipuesearch_set.js"></script>
+    <script src="tipuesearch/tipuesearch.min.js"></script>
+		
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>Belmont Forum</strong> BFE-INF</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="ddomp.html">DDOMP Guide</a>
+						<a href="dmt-root.html">Data Management Training</a>
+						<a href="bp&s-root.html">Best Practices & Standards</a>
+						<a href="https://github.com/bfe-inf/toolkit" target="_blank">GitHub</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			 </header>
+
+		<!-- Banner -->
+			<section id="banner" style="padding-bottom: 1px;">
+				<div class="inner">
+					<header>
+						<h1>E-INFRASTRUCTURES & DATA MANAGEMENT TOOLKIT</h1>
+						<hr>
+						<h2>Providing comprehensive training and educational resources for data discovery, management, and curation across the globe, in support of an international collaborative effort to enable open access to scientific data</h2>
+					</header>
+				</div>
+		
+    <!-- Search --> 
+        <form>
+          <div class="tipue_search_group">
+          <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required><button type="submit" class="tipue_search_button"><div class="tipue_search_icon">&#9906;</div></button>
+        </div>
+</form>
+
+<div id="tipue_search_content"></div>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="copyright">
+						&copy; The Belmont Forum e-Infrastructures and Data Management Collaborative Research Action 2018. All Rights Reserved.</a>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script>
+        $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch();
+      });
+      </script>
+	</body>
+</html>
