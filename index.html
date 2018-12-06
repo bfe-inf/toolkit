@@ -5,16 +5,7 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 
-
-
-<html>
-	<head>
-		<title>Home | BFE-INF Toolkit</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" type ="image/png" href = "images/Favicon/favicon-16x16.png"/>
-		<link rel="stylesheet" href="assets/css/main.css" />
-		{% if page.tipue_search_active or layout.tipue_search_active %}
+{% if page.tipue_search_active or layout.tipue_search_active %}
 		<link rel="stylesheet" href="{{ "/assets/tipuesearch/css/normalize.css" | relative_url }}">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="{{ "/assets/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
@@ -23,6 +14,15 @@
 		<script src="{{ "/assets/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
 		{% endif %}
 		tipue_search_active: true
+
+<html>
+	<head>
+		<title>Home | BFE-INF Toolkit</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type ="image/png" href = "images/Favicon/favicon-16x16.png"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
 	</head>
 	<body>
 
