@@ -1,3 +1,6 @@
 tipue_search:
   include:
     pages: true
+    
+plugins:
+  - jekyll-seo-tag
