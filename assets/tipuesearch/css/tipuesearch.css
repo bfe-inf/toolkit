@@ -46,14 +46,14 @@ http://www.tipue.com/search
 	-webkit-appearance: none;
      box-shadow: none; 
 	outline: 0;
-	margin: 50px 0 0 0;
+	margin: 0 0 0 0;
 	display: block;
 }
 .tipue_search_icon
 {
      width: 24px;
      height: 24px;
-     margin: 50px 0 0 0;
+     margin: 0 0 0 0;
 }
 .tipue_search_left
 {
