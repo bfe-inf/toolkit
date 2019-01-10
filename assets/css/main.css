@@ -266,11 +266,11 @@
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #6cc091;
+		background: white;
 		border-radius: 10px;
 		border: none;
-		border: solid 2px #8dcca9;
-		color: #fff;
+		border: solid 2px black;
+		color: black;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
