@@ -2401,6 +2401,11 @@
    width: 100%;
 }
 
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
 
 
 /* Type */
