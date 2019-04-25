@@ -2954,6 +2954,7 @@
 		top: 2.5em;
 		margin: 0;
 		width: 100%;
+		z-index: 10001;
 	}
 
 		#header .inner {
