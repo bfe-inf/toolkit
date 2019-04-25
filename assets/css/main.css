@@ -4166,6 +4166,207 @@
 
 		}
 
+/* Banner - Index2 */
+
+#banner6 {
+		padding: 6.5em 0 2em 0;
+		background-image: url(../../images/conor-sexton-402354-unsplash.jpg);
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+	}
+
+		#banner6:before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+		}
+
+		#banner6 .inner {
+			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			position: relative;
+			z-index: 10005;
+			padding-top: 4em;
+		}
+
+		#banner6 h1 {
+			font-size: 3.5em;
+			font-weight: 700;
+			color: #fff;
+			line-height: 1em;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+		
+		#banner6 h2 {
+			font-size: 1.85em;
+			font-weight: 300;
+			color: #fff;
+			margin: 0 0 1em 0;
+			padding: 0;
+		}
+			
+		#banner6 h3 {
+			font-weight: 400;
+			color: #fff;
+			margin: 0;
+			font-size: 1.5em;
+		}
+
+		#banner6 .icon {
+			color: #6cc091;
+			font-size: 2em;
+		}
+
+		#banner6 p {
+			font-size: 1em;
+			color: white;
+			margin-bottom: 1.75em;
+		}
+
+		#banner6 .flex {
+			-ms-flex-pack: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto 4em auto;
+		}
+
+			#banner6 .flex div {
+				border-right: 2px solid rgba(255, 255, 255, 0.2);
+				padding: 0 8em;
+			}
+
+				#banner6 .flex div:last-child {
+					border: none;
+					padding-right: 0;
+				}
+
+				#banner6 .flex div:first-child {
+					padding-left: 0;
+				}
+
+				#banner6 .flex div p {
+					margin: 0; 
+				}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+			#banner6 {
+				background-attachment: scroll;
+			}
+
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			#banner6 .flex div {
+				padding: 0 6em;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#banner6 {
+				padding: 7em 0 1em 0;
+			}
+
+				#banner6 .inner {
+					padding-top: 4em;
+				}
+
+				#banner6 h1 {
+					font-size: 3em;
+				}
+
+				#banner6 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner6 .flex div {
+					padding: 0 3em;
+				}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#banner6 {
+				background-attachment: scroll;
+				padding: 4em 0 1em 0;
+			}
+
+				#banner6 .inner {
+					padding-top: 4em;
+				}
+
+				#banner6 h1 {
+					font-size: 2.5em;
+				}
+
+				#banner6 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner6 .flex div {
+					font-size: .85em;
+					padding: 0 1.5em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner6 {
+				padding: 4em 0 1em 0;
+			}
+
+				#banner6 .inner {
+					padding-top: 3em;
+				}
+
+				#banner6 h1 {
+					font-size: 2em;
+				}
+
+				#banner6 h3 {
+					font-size: 1.25em;
+				}
+
+				#banner6 .flex {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					margin: 0 auto 2em auto;
+				}
+
+					#banner6 .flex div {
+						font-size: .85em;
+						padding: 0;
+						border: none;
+						margin-bottom: 1em;
+					}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#banner6 h1 {
+				font-size: 1.5em;
+			}
+
+		}
+
 
 
 /* Footer */
