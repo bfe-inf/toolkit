@@ -4198,7 +4198,7 @@
 		#banner6 h1 {
 			font-size: 3.5em;
 			font-weight: 700;
-			color: #fff;
+			color: black;
 			line-height: 1em;
 			margin: 0 0 1em 0;
 			padding: 0;
@@ -4207,14 +4207,14 @@
 		#banner6 h2 {
 			font-size: 1.85em;
 			font-weight: 300;
-			color: #fff;
+			color: black;
 			margin: 0 0 1em 0;
 			padding: 0;
 		}
 			
 		#banner6 h3 {
 			font-weight: 400;
-			color: #fff;
+			color: black;
 			margin: 0;
 			font-size: 1.5em;
 		}
@@ -4366,8 +4366,6 @@
 			}
 
 		}
-
-
 
 /* Footer */
 
