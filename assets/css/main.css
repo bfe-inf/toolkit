@@ -3168,7 +3168,6 @@
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
-		z-index: 10001;
 	}
 
 		#banner:before {
