@@ -1,6 +1,6 @@
 # Belmont Forum e-Infrastructures & Data Management Toolkit  
 
-This repository contains resources (links to training, policies, best practices, and other information) that enable Belmont Forum researchers to meet the Data Management expectations described in the <a href="http://www.bfe-inf.org/sites/default/files/doc-repository/CRA_Data_Digital_Outputs_Management_Annex_20180501.pdf">Data and Digital Objects Management Plan</a>, as well as a step-by-step guide to completing the DDOMP at the stages of pre-proposal, full proposal, and awarded projects. 
+This repository contains resources (links to training, policies, best practices, and other information) that enable Belmont Forum researchers to meet the Data Management expectations described in the <a href="http://www.bfe-inf.org/sites/default/files/doc-repository/CRA_Data_Digital_Outputs_Management_Annex_20180501.pdf">Data and Digital Objects Management Plan</a>, as well as a step-by-step guide to completing the DDOMP at the stages of pre-proposal, full proposal, and awarded projects. PLEASE NOTE: THIS SITE DOES NOT RENDER PROPERLY IN FIREFOX; PLEASE USE CHROME OR SAFARI OR ANOTHER BROWSER.
 
 <a href="https://www.youtube.com/watch?v=2qQeDCB3XhU&list=PLq4USJIxTB6TYUgkJ0OX3WSCboXAJ5AcA">"Toolkit Training" video tutorials</a> are available on You Tube for information about the material featured here and the structure of the site. 
 
